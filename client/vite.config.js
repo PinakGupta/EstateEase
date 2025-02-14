@@ -7,7 +7,7 @@ export default defineConfig({
     proxy:{
       '/api':{
         target: 'https://estate-ease-gray.vercel.app',
-        secure: false,
+        secure:false,
       },
     },
   },
